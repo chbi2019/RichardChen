@@ -6,9 +6,9 @@
   }
   
   .home,
-  .services,
-  .products,
-  .sign-up {
+  .about,
+  .portfolio,
+  .contact {
     display: flex;
     height: 90vh;
     align-items: center;
