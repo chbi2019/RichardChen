@@ -6,6 +6,7 @@ import Home from './components/pages/Home';
 import About from './components/pages/About';
 import Portfolio from './components/pages/Portfolio';
 import Contact from './components/pages/contact';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -20,8 +21,10 @@ function App() {
             
           
         </Switch>
+        <Footer/>
       </Router>
-
+      
+      
     </>
   );
 }

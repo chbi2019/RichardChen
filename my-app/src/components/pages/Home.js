@@ -1,13 +1,16 @@
 import '../../App.css';
-import Footer from '../Footer';
+import React, {components} from 'react';
+import HomeContent from '../HomeContent';
 
-function Home(){
+
+function Home() {
     return (
+
         <>
-            <h1>Home</h1>
-            <Footer/>
-           </> 
-    )
+            <HomeContent />
+            
+        </>
+    );
 }
 
 export default Home;
