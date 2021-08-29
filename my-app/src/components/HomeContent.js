@@ -11,7 +11,7 @@ function HomeContent() {
                 <div className='info-section'>
                     <p>Richard Chen</p>
                     <p>Software Engineer</p>
-                    <a href='/'>Resume</a>
+                    <a href='/'>Resume<i className='fas fa-download'></i></a>
                 </div>
             </div>
         </>
