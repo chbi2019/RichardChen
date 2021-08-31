@@ -1,0 +1,24 @@
+.skill-card-container{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    border:2px solid red;
+    padding: 10px;
+    align-items: center;
+    
+}
+
+
+.card-names-bars-wrapper{
+    display: flex;
+    flex-direction:row;
+    background-color: magenta;
+}
+.card-names>*{
+   font-family: 'Times New Roman', Times, serif;
+}
+.card-bars > *{
+    width: 200px;
+    margin-top: 5px;
+    border: 1px solid red;
+}

@@ -1,0 +1,40 @@
+.about-container{
+    
+    display: flex;
+    
+    background-color: magenta;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom:213px;
+    top:80px;
+    
+    width: 100%;
+    
+}
+
+.skill-card-wrapper{
+    display: flex;
+    
+    
+    
+}
+
+.skill-card-wrapper > *{
+  margin: 10px;
+}
+
+
+.two-skill-card>:first-child{
+    margin-bottom:20px;
+}
+
+
+@media screen and (max-width: 960px) {
+    .skill-card-wrapper{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+}
+
