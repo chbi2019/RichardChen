@@ -22,8 +22,8 @@
 }
 .card-bars > *{
     width: 200px;
-    margin-top: 5px;
-    border: 1px solid red;
+    margin-top: 7px;
+    /* border: 1px solid red; */
 }
 
 @media screen and (max-width: 960px) {
