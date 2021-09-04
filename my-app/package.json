@@ -1,7 +1,7 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-  "homepage": "http://chbi.dev.fast.sheridanc.on.ca",
+  "homepage": "http://chbi.dev.fast.sheridanc.on.ca/RichardChen/",
   "private": true,
   "dependencies": {
     "@react-google-maps/api": "^2.2.0",

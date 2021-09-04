@@ -1,7 +1,7 @@
-import React from 'react'
-import { Card, Button } from 'react-bootstrap'
+import React from 'react';
+import { Card, Button } from 'react-bootstrap';
 
-import richardPhoto from '../images/richardPhoto.png'
+import richardPhoto from '../images/richardPhoto.png';
 import './ProjectCard.css';
 
 
