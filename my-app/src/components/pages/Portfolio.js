@@ -1,10 +1,11 @@
 import '../../App.css';
-import Footer from '../Footer';
+
+import PortfolioContent from '../PortfolioContent';
 
 function Portfolio(){
     return (
         <>
-            <h1>Portfolio</h1>
+            <PortfolioContent/>
             
            </> 
     )

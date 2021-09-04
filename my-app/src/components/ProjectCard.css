@@ -1,0 +1,29 @@
+.card-image-container{
+    position: relative;
+    text-align: center;
+    
+}
+.card-image{
+    opacity: 0.2;
+}
+.text-on-image{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: red;
+    font-weight:bolder;
+    font-size: 40px;
+}
+
+.card-button-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-button-container>*{
+    margin-left: 10px;
+}
+

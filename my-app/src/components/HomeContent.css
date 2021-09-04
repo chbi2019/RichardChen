@@ -19,7 +19,7 @@
     padding: 10px; 
 }
 
-.binPhoto{
+.richardPhoto{
     width: 300px;
     border-radius: 50%;
 }
@@ -29,7 +29,7 @@
         flex-direction: column;
         font-size: 2rem;
     }
-    .binPhoto{
+    .richardPhoto{
         width: 200px;
         margin-top: 50px;
     }

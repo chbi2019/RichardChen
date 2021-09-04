@@ -1,17 +1,18 @@
 import React from 'react';
 import './HomeContent.css';
-import binPhoto from '../images/binPhoto.png'
+import richardPhoto from '../images/richardPhoto.png'
+import richardResume from '../images/richardResume.pdf';
 
 function HomeContent() {
 
     return (
         <>
             <div className='home-container'>
-                <img className='binPhoto' src={binPhoto} />
+                <img className='richardPhoto' src={richardPhoto} />
                 <div className='info-section'>
                     <p>Richard Chen</p>
                     <p>Software Engineer</p>
-                    <a href='/'>Resume<i className='fas fa-download'></i></a>
+                    <a href={richardResume}>Resume<i className='fas fa-download'></i></a>
                 </div>
             </div>
         </>

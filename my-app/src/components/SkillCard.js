@@ -1,13 +1,10 @@
 import React from 'react'
 import ProgressBar from 'react-bootstrap/ProgressBar';
-import Button from 'react-bootstrap/Button';
-import { Card, Placeholder } from 'react-bootstrap';
-import binPhoto from '../images/binPhoto.png';
+// import Button from 'react-bootstrap/Button';
+// import { Card, Placeholder } from 'react-bootstrap';
+// import richardPhoto from '../images/richardPhoto.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './SkillCard.css';
-
-
-
 
 
 

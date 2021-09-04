@@ -1,18 +1,21 @@
 .skill-card-container{
     display: flex;
     flex-direction: column;
-    width: 300px;
-    border:2px solid red;
+    width: 500px;
+    height: 500px;
+    background-color: lightblue;
     padding: 10px;
     align-items: center;
-    
+    justify-content: center;
+    border-radius: 10%;
 }
 
 
 .card-names-bars-wrapper{
     display: flex;
     flex-direction:row;
-    background-color: magenta;
+    
+    
 }
 .card-names>*{
    font-family: 'Times New Roman', Times, serif;
@@ -21,4 +24,15 @@
     width: 200px;
     margin-top: 5px;
     border: 1px solid red;
+}
+
+@media screen and (max-width: 960px) {
+    .skill-card-container{
+        
+        width: 300px;
+        height: 300px;
+        
+        
+    }
+    
 }

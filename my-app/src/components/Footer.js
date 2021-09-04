@@ -1,39 +1,26 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from 'react';
 import './Footer.css';
 
 function Footer() {
     return (
         <div className='footer-container'>
             <div className='footer-icon-wrapper'>
-                <Link className='footer-icon facebook'
-                    to='/'
-                    target='_blank'
-                    aria-label='Facebook'>
+                <a href='/'>
                     <i className='fab fa-facebook-f' />
 
-                </Link>
-                <Link className='footer-icon instagram'
-                    to='/'
-                    target='_blank'
-                    aria-label='Instagram'>
+                </a>
+                <a href='/'>
                     <i className='fab fa-instagram' />
 
-                </Link>
-                <Link className='footer-icon linkedin'
-                    to='/'
-                    target='_blank'
-                    aria-label='Linkedin'>
+                </a>
+                <a href='/'>
                     <i className='fab fa-linkedin' />
 
-                </Link>
-                <Link className='footer-icon github'
-                    to='/'
-                    target='_blank'
-                    aria-label='Github'>
+                </a>
+                <a href='https://github.com/chbi2019'>
                     <i className='fab fa-github' />
 
-                </Link>
+                </a>
             </div>
 
             <small class='website-rights'>RC © 2021</small>

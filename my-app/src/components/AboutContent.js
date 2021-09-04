@@ -5,7 +5,7 @@ import './AboutContent.css';
 function AboutContent() {
     return (
         <div className='about-container'>
-            <h1>About Me</h1>
+            <h1 className='about-container-title'>About Me</h1>
             <div className='skill-card-wrapper'>
                 <div className='two-skill-card'>
                     <SkillCard bars={[90, 70, 60,70,50]} cardTitle={'Front End'} barNames={['HTML', 'CSS', 'Javascript','Jquery', 'React']} />

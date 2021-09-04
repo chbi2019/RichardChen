@@ -7,9 +7,9 @@ import ContactMap from './ContactMap';
 function ContactContent() {
     return (
         <div className='contact-container'>
-            <h1>Contact</h1>
+            <h1 className='contact-container-title'>Contact</h1>
             <div className='contact-content-wrapper'>
-                <ContactForm />
+                <ContactForm/>
                 <ContactMap/>
             </div>
         </div>

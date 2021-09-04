@@ -1,5 +1,5 @@
 .footer-container{
-    background-color: #000000;
+    background-color: lightblue;
     padding: 15px 0 0 0;
     display: flex;
     flex-direction:column;
@@ -9,6 +9,9 @@
     bottom: 0;
     position: fixed;
     width: 100%;
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+    
 }
 
 .footer-icon-wrapper{
@@ -20,15 +23,15 @@
 .footer-icon-wrapper * {
     padding: 12px;
     font-size:xx-large;
-    color: aliceblue;
+    color: black;
 }
 .footer-icon-wrapper * :hover{
-   background-color: lightslategray;
+   background-color: blue;
    border-radius: 20%;
 }
 
 .website-rights{
     text-align: center;
-    color: aliceblue;
+    color: black;
     margin-top: 10px;
 }
